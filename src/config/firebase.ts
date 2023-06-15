@@ -8,12 +8,12 @@ import { getAuth,GoogleAuthProvider} from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDlZLeZZMJsa52SgOctY8zgRAaRY7S71CU",
-  authDomain: "card-generator-24dfa.firebaseapp.com",
+  apiKey: "yours api",
+  authDomain: "yours ",
   projectId: "card-generator-24dfa",
   storageBucket: "card-generator-24dfa.appspot.com",
-  messagingSenderId: "917903758881",
-  appId: "1:917903758881:web:d0b95e3e436c775a067560"
+  messagingSenderId: "yours",
+  appId: "yours "
 };
 
 // Initialize Firebase
