@@ -5,7 +5,7 @@ import './App.css';
 // const r = <h1>hello world</h1>
 // ReactDOM.render(r,document.getElementById('root'));
 
-export function Header(){
+export default function Header(){
     const pName= useRef("")
     const pNumber = useRef("");
     let returnName,returnNum;

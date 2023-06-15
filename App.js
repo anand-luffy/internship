@@ -3,7 +3,7 @@ import './App.css';
 import Addcontact from "./Addcontact";
 import { useState } from 'react';
 
- export function App(){
+ export default function App(){
   const [counters,setcounters] = useState([
     {id:1,value:0},
     {id:2,value:0},
