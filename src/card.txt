@@ -1,0 +1,25 @@
+const [formclass,setformclass] = useState(true);
+
+    const schema = yup.object().shape(
+        {
+            fullname : yup.string().required(" your fullName is required bro "),
+            email : yup.string().email().required(" your email is needed "),
+            age : yup.number().positive().integer().min(4).required("").typeError("your age is required,Enter properly"),
+            password : yup.string().min(4).max(20).required("password is required atleast 4 characters"),
+            confirmpassword : yup.string().oneOf([yup.ref("password"),null],"your password is mismatched").required("please fill this section correctly")
+        }
+    );
+
+
+
+    const {register,handleSubmit,formState:{errors}} = useForm(
+        {resolver : yupResolver(schema) }
+    );
+
+    const handletheme = () => {
+        setformclass(!formclass);
+    }
+
+    const clicksubmit = (data) => {
+        console.log(data)
+    }

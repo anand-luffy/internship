@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App-login{
+  background-image: url('https://img.freepik.com/free-vector/realistic-polygonal-background_23-2148899086.jpg?w=826&t=st=1686547700~exp=1686548300~hmac=ebd89608576d0710624fcd36250f06fd6b8d262eeece9ba3628c40aee1a46b6d');
+  
+  background-size: cover;
+  position: fixed;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  min-width: 100%;
+  background-position: center;
+  
+}
+.loginpage{
+  margin-top: 120px;
+  margin-left: 400px;
+  height: 400px;
+  width: 600px;
+  background: rgba(130, 104, 104, 0.23);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  border: 1px solid rgba(237, 237, 237, 0.46);
+  padding:30px;
+}
+.text1{
+  color: white;
+}
+.text2{
+  color: rgb(75, 73, 72);
+}
+.btn{
+  color: white;
+  background-color: #007fff;
+  height: 40px;
+  width: 500px;
+  border: none;
+  cursor: pointer;
+}
+u{
+  cursor: pointer;
+}
+input[type=text], input[type=password],input[type="number"]{
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.passwordinput,.emailinput{
+  width: 538px;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+.passwordinput input,.emailinput input{
+  outline: none;
+  border: hidden;
+  height: 100%;
+  width: 100%;
+}
+table, th, td {
+  border:0px solid black;
+}
+table{
+  width: 100%;
+}
+th{
+  width: 280px;
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 340px;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.signup {
+  left: 0;
+  cursor: pointer;
+}
+
+.google {
+  right: 0;
+  cursor: pointer;
+}
+img{
+  width: 50%;
+  height: 60px;
+  width: 60px;
+  border-radius: 20px;
+}
